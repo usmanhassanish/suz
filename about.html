@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>
+
+</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.one{
+background-color:white;
+height:80px;
+width:100%;
+}
+
+.two{
+background-color:black;
+height:50px;
+width:100%;
+font-size:40px;
+box-sizing: border-box;
+}
+
+.three{
+width:100%;
+}
+html, body {
+  margin:0px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+img{
+float:left;
+}
+.up
+{
+font-size: 45px;
+}
+.col{
+font-color:#000000;
+text-decoration:none;}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 600px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center {
+  display: block;
+  margin-left: 120px;
+  border-radius:50%;
+ 
+  
+}
+#side
+{
+color:white;}
+@media (min-width:992px) and (max-width:1199px)
+{
+.one{
+background-color:white; 
+height:150px;
+width:100%;
+}
+}
+
+@media (min-width:100px) and (max-width:991px)
+{
+.one{
+background-color:white;
+height:220px;
+width:100%;
+}
+.up{
+
+font-size:30px;
+
+}
+
+.one img{
+width:100px;
+height:70px;
+}
+
+.two{
+font-size:22px;
+text-align:center;}
+
+.center {
+  display: block;
+  margin-left: 0px;
+  border-radius:50%;
+ 
+  
+}
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="one">
+<img style="border-color:black" border="1" src="logo.png" height="128"> 
+<!-- Add font awesome icons -->
+<a class="up" style="float:right" ><span>&#9993;</span>&nbsp;&nbsp;suz@gmail.com </a>
+<a class="up" style="float:right" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&#9743;</span>+2348163465352</a>
+
+<a style="float:right" href="#" class="fa fa-facebook"></a>
+<a style="float:right" href="#" class="fa fa-twitter"></a>
+<a style="float:right" href="#" class="fa fa-instagram"></a>
+
+</div>
+
+<div class="two">
+<a  class="col" style="float:right" href="contact.html" >CONTACT|</a>
+<a class="col" style="float:right" href="services.html" >SERVICES|</a>
+<a class="col" style="float:right" href="about.html" >ABOUT|</a>
+<a class="col" style="float:right" href="home.html" >|HOME|</a>
+
+
+</div>
+
+<div class="three">
+
+
+<div class="row">
+  <div class="column" style="background-color:#125688;">
+    <p style="text-align:center">CEO & FOUNDER</p>
+    <P><img src="u.jpg" width="400" height="350" class="center"/></P>
+  </div>
+  <div class="column" style="background-color:#000;">
+    <h2 id="side" style="text-align:center">ABOUT THE CEO</h2>
+    <p id="side">Some text..</p>
+  </div>
+</div>
+
+</div>
+
+
+</body>
+
+
+
+</html>
